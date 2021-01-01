@@ -138,8 +138,8 @@ function competition_min_expiry_date() {
 	wp_enqueue_script('glavni-js', get_template_directory_uri() . '/js/admin-skripta.js', array('jquery'), true);
 }
 
-// // Hook into the 'admin_enqueue_scripts' action
-// add_action( 'admin_enqueue_scripts', 'competition_min_expiry_date' );
+// Hook into the 'admin_enqueue_scripts' action
+add_action( 'admin_enqueue_scripts', 'competition_min_expiry_date' );
 
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
