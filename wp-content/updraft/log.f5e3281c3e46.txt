@@ -1,0 +1,214 @@
+0000.001 (0) Opened log file at time: Fri, 01 Jan 2021 16:23:01 +0000 on http://localhost/ford
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.43 WP: 5.5.3 PHP: 7.4.11 (apache2handler, Windows NT DESKTOP-J5DUKT9 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: hr Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 31.4M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 105816.1 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.011 (0) Semaphore (fd, ford_options) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2021-01-01 16:23:01
+0000.021 (0) Semaphore lock (fd) complete
+0000.028 (0) Backup run: resumption=0, nonce=f5e3281c3e46, file_nonce=f5e3281c3e46 begun at=1609518181 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1609518481) in case this run gets aborted
+0000.042 (0) Checking if we have a zip executable available
+0000.045 (0) Creation of backups of directories: beginning
+0000.050 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.160 (0) Total entities for the zip file: 562 directories, 2289 files (0 skipped as non-modified), 36.3 MB
+0001.215 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.263 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.310 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.373 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.421 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.478 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.536 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.595 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.679 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.734 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.736 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.6 MB, 2289 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.141 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1100 files added (on-disk size: 3830.7 KB)
+0003.222 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1200 files added (on-disk size: 3830.7 KB)
+0003.282 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1300 files added (on-disk size: 3830.7 KB)
+0003.329 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1400 files added (on-disk size: 3830.7 KB)
+0003.376 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1500 files added (on-disk size: 3830.7 KB)
+0003.434 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1600 files added (on-disk size: 3830.7 KB)
+0003.488 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1700 files added (on-disk size: 3830.7 KB)
+0003.544 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1800 files added (on-disk size: 3830.7 KB)
+0003.601 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 1900 files added (on-disk size: 3830.7 KB)
+0003.653 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 2000 files added (on-disk size: 3830.7 KB)
+0003.657 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.9 MB, 2289 files batched, 1001 (2002) added so far); re-opening (prior size: 3830.7 KB)
+0005.679 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 2100 files added (on-disk size: 10067 KB)
+0005.728 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip.tmp: 2200 files added (on-disk size: 10067 KB)
+0006.178 (0) Created plugins zip (0) - 10610.4 KB in 6.1 s (1732.4 KB/s) (sha1: 7c9f6bcd27e2324d0d763ffa31e2569e39db06a4, sha256: c165d14da15478817cb4112906b4bb8b2a0ead9bc35606a317148230605472af)
+0006.182 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.768 (0) Total entities for the zip file: 72 directories, 1682 files (0 skipped as non-modified), 17.5 MB
+0006.901 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.954 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.008 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.061 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.107 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.152 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.198 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0007.245 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0007.290 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0007.335 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0007.338 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10 MB, 1682 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0008.635 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1100 files added (on-disk size: 3931.2 KB)
+0008.686 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1200 files added (on-disk size: 3931.2 KB)
+0008.736 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1300 files added (on-disk size: 3931.2 KB)
+0008.785 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1400 files added (on-disk size: 3931.2 KB)
+0008.860 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1500 files added (on-disk size: 3931.2 KB)
+0008.918 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip.tmp: 1600 files added (on-disk size: 3931.2 KB)
+0009.925 (0) Created themes zip (0) - 7838.2 KB in 3.7 s (2095.8 KB/s) (sha1: 2d63da94702df22d76cecf4e2bee48aa8b4b4bcd, sha256: 35a63d45cb6efeeda53ebef8ae9c5d6605c899ce0ef781597e225470c6f1bfdd)
+0009.930 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.931 (0) Looking for candidates to backup in: C:\xampp\htdocs\Ford/wp-content/uploads
+0009.933 (0) finding files: 2020: adding to list (1)
+0009.935 (0) finding files: 2021: adding to list (2)
+0009.937 (0) finding files: resized: adding to list (3)
+0009.938 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.110 (0) Total entities for the zip file: 20 directories, 468 files (0 skipped as non-modified), 31 MB
+0010.156 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.202 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.247 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.279 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 468 files batched, 369 (369) added so far); re-opening (prior size: 0 KB)
+0010.630 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 19259.2 KB/s)
+0010.633 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3295650482178, normalised_time=1.3292360655368, max_time=10.630905866623, data points known=1, old_max_bytes=26214400, new_max_bytes=125793826)
+0010.651 (0) Zip: backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip.tmp: 400 files added (on-disk size: 25671.7 KB)
+0011.062 (0) Created uploads zip (0) - 31801.4 KB in 1.1 s (28383.1 KB/s) (sha1: a652595a8bff986f9c7f2bc6511a993ce1b700d2, sha256: d818a170de36af32422f528ffea0013c6864f80182e5176ea2a1f02edb8d5756)
+0011.066 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.068 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0011.069 (0) Looking for candidates to backup in: C:\xampp\htdocs\Ford/wp-content
+0011.071 (0) finding files: index.php: adding to list (1)
+0011.073 (0) finding files: languages: adding to list (2)
+0011.074 (0) finding files: plugins: skipping: this is the plugins directory
+0011.075 (0) finding files: themes: skipping: this is the themes directory
+0011.077 (0) finding files: updraft: skipping: this is the updraft directory
+0011.078 (0) finding files: upgrade: skipping: excluded by options
+0011.079 (0) finding files: uploads: skipping: this is the uploads directory
+0011.110 (0) Total entities for the zip file: 3 directories, 65 files (0 skipped as non-modified), 2.7 MB
+0011.373 (0) Created others zip (0) - 786.2 KB in 0.3 s (2706.8 KB/s) (sha1: 26bcb40787aba31c63c4b34a3401779870dcd094, sha256: de0ebb3a9f12bd3684a8d1fa6b371ffadc2bc091be4350a16b13554a40d687fd)
+0011.382 (0) Saving backup status to database (elements: 8)
+0011.387 (0) Beginning creation of database dump (WordPress DB)
+0011.389 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0011.404 (0) Table ford_options: Total expected rows (approximate): 182
+0011.415 (0) Table ford_options: Rows added in this batch (next record: 424): 178 (uncompressed bytes in this segment=101342) in 0.01 seconds
+0011.452 (0) Table ford_options: finishing file(s) (2, 20.3 KB)
+0011.464 (0) Table ford_users: Total expected rows (approximate): 0
+0011.470 (0) Table ford_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1366) in 0.00 seconds
+0011.482 (0) Table ford_users: finishing file(s) (2, 0.6 KB)
+0011.487 (0) Table ford_usermeta: Total expected rows (approximate): 31
+0011.491 (0) Table ford_usermeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=3896) in 0.00 seconds
+0011.498 (0) Table ford_usermeta: finishing file(s) (2, 1.6 KB)
+0011.506 (0) Table ford_commentmeta: Total expected rows (approximate): 2
+0011.511 (0) Table ford_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=836) in 0.00 seconds
+0011.519 (0) Table ford_commentmeta: finishing file(s) (2, 0.4 KB)
+0011.523 (0) Table ford_comments: Total expected rows (approximate): 0
+0011.528 (0) Table ford_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2124) in 0.00 seconds
+0011.535 (0) Table ford_comments: finishing file(s) (2, 0.8 KB)
+0011.544 (0) Table ford_links: Total expected rows (approximate): 0
+0011.549 (0) Table ford_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1278) in 0.00 seconds
+0011.557 (0) Table ford_links: finishing file(s) (2, 0.5 KB)
+0011.562 (0) Table ford_postmeta: Total expected rows (approximate): 532
+0011.572 (0) Table ford_postmeta: Rows added in this batch (next record: 678): 532 (uncompressed bytes in this segment=119025) in 0.01 seconds
+0011.582 (0) Table ford_postmeta: finishing file(s) (2, 10.1 KB)
+0011.588 (0) Table ford_posts: Total expected rows (approximate): 196
+0011.602 (0) Table ford_posts: Rows added in this batch (next record: 246): 196 (uncompressed bytes in this segment=96892) in 0.01 seconds
+0011.612 (0) Table ford_posts: finishing file(s) (2, 13.7 KB)
+0011.618 (0) Table ford_term_relationships: Total expected rows (approximate): 114
+0011.626 (0) Table ford_term_relationships: Rows added in this batch (next record: 100000): 115 (uncompressed bytes in this segment=2335) in 0.01 seconds
+0011.634 (0) Table ford_term_relationships: finishing file(s) (2, 0.7 KB)
+0011.638 (0) Table ford_term_taxonomy: Total expected rows (approximate): 36
+0011.645 (0) Table ford_term_taxonomy: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2250) in 0.01 seconds
+0011.653 (0) Table ford_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0011.657 (0) Table ford_termmeta: Total expected rows (approximate): 0
+0011.661 (0) Table ford_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0011.670 (0) Table ford_termmeta: finishing file(s) (2, 0.4 KB)
+0011.674 (0) Table ford_terms: Total expected rows (approximate): 34
+0011.679 (0) Table ford_terms: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2122) in 0.00 seconds
+0011.687 (0) Table ford_terms: finishing file(s) (2, 0.9 KB)
+0011.692 (0) Table ford_nextend2_image_storage: Total expected rows (approximate): 40
+0011.697 (0) Table ford_nextend2_image_storage: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=17483) in 0.00 seconds
+0011.705 (0) Table ford_nextend2_image_storage: finishing file(s) (2, 2 KB)
+0011.709 (0) Table ford_nextend2_section_storage: Total expected rows (approximate): 11
+0011.714 (0) Table ford_nextend2_section_storage: Rows added in this batch (next record: 11279): 11 (uncompressed bytes in this segment=39240) in 0.00 seconds
+0011.723 (0) Table ford_nextend2_section_storage: finishing file(s) (2, 6.1 KB)
+0011.732 (0) Table ford_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0011.737 (0) Table ford_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.00 seconds
+0011.744 (0) Table ford_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0011.748 (0) Table ford_nextend2_smartslider3_sliders: Total expected rows (approximate): 8
+0011.754 (0) Table ford_nextend2_smartslider3_sliders: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=83771) in 0.00 seconds
+0011.763 (0) Table ford_nextend2_smartslider3_sliders: finishing file(s) (2, 5.3 KB)
+0011.767 (0) Table ford_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 7
+0011.772 (0) Table ford_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=812) in 0.00 seconds
+0011.780 (0) Table ford_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0011.784 (0) Table ford_nextend2_smartslider3_slides: Total expected rows (approximate): 37
+0011.790 (0) Table ford_nextend2_smartslider3_slides: Rows added in this batch (next record: 49): 37 (uncompressed bytes in this segment=41816) in 0.00 seconds
+0011.799 (0) Table ford_nextend2_smartslider3_slides: finishing file(s) (2, 3.7 KB)
+0011.801 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_options.table.tmpr425.gz (1/18): adding to final database dump
+0011.806 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_options.table.gz (2/18): adding to final database dump
+0011.810 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_users.table.tmpr2.gz (3/18): adding to final database dump
+0011.812 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_users.table.gz (4/18): adding to final database dump
+0011.816 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_usermeta.table.tmpr37.gz (5/18): adding to final database dump
+0011.819 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_usermeta.table.gz (6/18): adding to final database dump
+0011.822 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_commentmeta.table.tmpr3.gz (7/18): adding to final database dump
+0011.824 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_commentmeta.table.gz (8/18): adding to final database dump
+0011.827 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_comments.table.tmpr2.gz (9/18): adding to final database dump
+0011.829 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_comments.table.gz (10/18): adding to final database dump
+0011.832 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_links.table.tmpr0.gz (11/18): adding to final database dump
+0011.834 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_links.table.gz (12/18): adding to final database dump
+0011.837 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_postmeta.table.tmpr679.gz (13/18): adding to final database dump
+0011.842 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_postmeta.table.gz (14/18): adding to final database dump
+0011.845 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_posts.table.tmpr247.gz (15/18): adding to final database dump
+0011.850 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_posts.table.gz (16/18): adding to final database dump
+0011.852 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_term_relationships.table.tmpr100001.gz (17/18): adding to final database dump
+0011.855 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_term_relationships.table.gz (18/18): adding to final database dump
+0011.857 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_term_taxonomy.table.tmpr37.gz (19/18): adding to final database dump
+0011.860 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_term_taxonomy.table.gz (20/18): adding to final database dump
+0011.862 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_termmeta.table.tmpr0.gz (21/18): adding to final database dump
+0011.865 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_termmeta.table.gz (22/18): adding to final database dump
+0011.867 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_terms.table.tmpr37.gz (23/18): adding to final database dump
+0011.870 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_terms.table.gz (24/18): adding to final database dump
+0011.872 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_image_storage.table.tmpr41.gz (25/18): adding to final database dump
+0011.876 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_image_storage.table.gz (26/18): adding to final database dump
+0011.879 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_section_storage.table.tmpr11280.gz (27/18): adding to final database dump
+0011.882 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_section_storage.table.gz (28/18): adding to final database dump
+0011.885 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_generators.table.tmpr0.gz (29/18): adding to final database dump
+0011.888 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_generators.table.gz (30/18): adding to final database dump
+0011.890 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_sliders.table.tmpr9.gz (31/18): adding to final database dump
+0011.894 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_sliders.table.gz (32/18): adding to final database dump
+0011.896 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (33/18): adding to final database dump
+0011.899 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_sliders_xref.table.gz (34/18): adding to final database dump
+0011.902 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_slides.table.tmpr50.gz (35/18): adding to final database dump
+0011.905 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db-table-ford_nextend2_smartslider3_slides.table.gz (36/18): adding to final database dump
+0011.915 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db.gz: finished writing out complete database file (48 KB)
+0011.928 (0) Total database tables backed up: 18 (backup_2021-01-01-1723_Ford_f5e3281c3e46-db.gz, size: 65842, sha1: 521135d963d29d0c74488b6536a598c883ef4923, sha256: 6984ed956f96a856c5ad0e02efaa9f563cc2a0f5200a41261fa523681e47b038)
+0011.935 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.936 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.938 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.939 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.941 (0) backup_2021-01-01-1723_Ford_f5e3281c3e46-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.942 (0) Saving backup history. Total backup size: 49.9 MB
+0011.945 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.950 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.951 (0) No remote despatch: user chose no remote backup service
+0011.952 (0) Recording as successfully uploaded: backup_2021-01-01-1723_Ford_f5e3281c3e46-plugins.zip
+0011.955 (0) Recording as successfully uploaded: backup_2021-01-01-1723_Ford_f5e3281c3e46-themes.zip
+0011.958 (0) Recording as successfully uploaded: backup_2021-01-01-1723_Ford_f5e3281c3e46-uploads.zip
+0011.960 (0) Recording as successfully uploaded: backup_2021-01-01-1723_Ford_f5e3281c3e46-others.zip
+0011.963 (0) Recording as successfully uploaded: backup_2021-01-01-1723_Ford_f5e3281c3e46-db.gz
+0011.967 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.969 (0) Number of backup sets in history: 1; groups (db): 1
+0011.971 (0) Examining (for databases) backup set with group_id=0, nonce=f5e3281c3e46, datestamp=1609518181 (Jan 01 2021 16:23:01)
+0011.972 (0) This backup set is the backup set just made, so will not be deleted.
+0011.972 (0) Number of backup sets in history: 1; groups (files): 1
+0011.973 (0) Examining (for files) backup set with nonce=f5e3281c3e46, datestamp=1609518181 (Jan 01 2021 16:23:01)
+0011.973 (0) This backup set is the backup set just made, so will not be deleted.
+0011.974 (0) This backup set is the backup set just made, so will not be deleted.
+0011.974 (0) This backup set is the backup set just made, so will not be deleted.
+0011.974 (0) This backup set is the backup set just made, so will not be deleted.
+0011.975 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.976 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0011.978 (0) Resume backup (f5e3281c3e46, 0): finish run
+0011.982 (0) Decremented the semaphore (fd) by 1
+0011.985 (0) Semaphore (fd) unlocked
+0011.987 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.991 (0) The backup apparently succeeded and is now complete
+0011.993 (0) No email will/can be sent - the user has not configured an email address.
+0011.994 (0) Izgleda da je kreiranje sigurnosne kopije uspjelo i završeno
