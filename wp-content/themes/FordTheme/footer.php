@@ -12,40 +12,15 @@
                         </p>
                         <div class="footer-social-link">
                             <h3>Pratite nas</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook fa-3x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter  fa-3x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus  fa-3x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin  fa-3x"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram  fa-3x"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            <?php dynamic_sidebar( 'footer-social' ); ?>
+
                         </div>
                         <!-- End Social link -->
                     </div>
                     <!-- End Footer info -->
                     <div class="footer-awarad">
                         <img src="images/icon/best.png" alt="">
-                        <p>Najbolja tvornica vozila 2020</p>
+                        <?php dynamic_sidebar( 'footer-slogan-2' ); ?>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -59,7 +34,7 @@
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
                                     <h3>Hrvatska</h3>
-                                    <p>33000 Virovitica</p>
+                                    <?php dynamic_sidebar( 'footer-grad-postanski' ); ?>
                                 </div>
                                 <!-- End Contact Info -->
                             </div>
@@ -73,7 +48,7 @@
                                 </div>
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
-                                    <h3>099 411 4013</h3>
+                                    <?php dynamic_sidebar( 'footer-broj' ); ?>
                                     <p>Slobodno nas nazovite</p>
                                 </div>
                                 <!-- End Contact Info -->
@@ -90,36 +65,32 @@
                                     <h3>Korisne poveznice</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
-                                <ul>
-                                    <li>
-                                        <a href="#">O nama</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Servisiranje</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Projekti</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Naš tim</a>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <a href="#">Vozila</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Kontaktirajte nas</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Faq</a>
-                                    </li>
-                                </ul>
-                            </div>
+                                <?php 
+                                        $args = array(
+                                            'theme_location'  => 'footer-menu-middle-1',
+                                            'menu_id'       =>  'footer-menu-middle',
+                                              'depth'	          => 1,
+                                              'container'       => 'ul',
+                                              'container_class' => 'nicht',
+                                              'container_id'    => 'nicht',
+                                              'menu_class'      => 'li'
+                                          );
+                                          wp_nav_menu( $args );
+                                ?>
+                                <?php 
+                                        $args = array(
+                                            'theme_location'  => 'footer-menu-middle-2',
+                                            'menu_id'       =>  'footer-menu-middle-2',
+                                              'depth'	          => 1,
+                                              'container'       => 'ul',
+                                              'container_class' => 'nicht',
+                                              'container_id'    => 'nicht',
+                                              'menu_class'      => 'li'
+                                          );
+                                          wp_nav_menu( $args );
+                                ?>
                             <!-- End Footer Widget -->
+                            </div>
                         </div>
                         <!-- End col -->
                         <div class="col-md-12 col-lg-6">
@@ -128,8 +99,7 @@
                                     <h3>Pretplata</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
-                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                Kontinuirano radimo na tome da vaš život učinimo lakšim. Ford vozilima.</p>
+                                <?php dynamic_sidebar( 'footer-slogan' ); ?>
                                 <form action="#">
                                     <div class="form-row">
                                         <div class="col dk-footer-form">
@@ -159,22 +129,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <span>Copyright © 2020, Sva prava pridržana Ford Hrvatska</span>
+                        <span>Copyright © 2021, Sva prava pridržana Ford Hrvatska</span>
                     </div>
                     <!-- End Col -->
                     <div class="col-md-6">
                         <div class="copyright-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Vozila</a>
-                                </li>
-                                <li>
-                                    <a href="#">Saloni vozila</a>
-                                </li>
-                                <li>
-                                    <a href="#">Ford Tim</a>
-                                </li>
-                            </ul>
+                        <?php 
+                                        $args = array(
+                                            'theme_location'  => 'footer-menu-bottom',
+                                            'menu_id'       =>  'footer-menu-bottom',
+                                            'depth'	          => 1,
+                                            'container'       => 'ul',
+                                            'container_class' => 'nicht',
+                                            'container_id'    => 'nicht',
+                                            'menu_class'      => 'li'
+                                          );
+                                          wp_nav_menu( $args );
+                                ?>
                         </div>
                     </div>
                     <!-- End col -->

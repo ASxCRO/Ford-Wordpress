@@ -4,7 +4,10 @@ if (!function_exists('inicijaliziraj_temu')) {
 	{
 		add_theme_support('post-thumbnails');
 		register_nav_menus(array(
-			'glavni-menu' => "Glavni navigacijski izbornik"
+			'glavni-menu' => "Glavni navigacijski izbornik",
+			'footer-menu-middle-1' => "Srednji navigacijski izbornik 1",
+			'footer-menu-middle-2' => "Srednji navigacijski izbornik 2",
+			'footer-menu-bottom' => "Donji navigacijski izbornik"
 		));
 		add_theme_support('custom-background', apply_filters(
 			'test_custom_background_args',
@@ -27,76 +30,55 @@ add_action('after_setup_theme', 'inicijaliziraj_temu');
 //SIDEBAR ZA NOVOSTI
 function aktiviraj_sidebar()
 {
+
 	register_sidebar(
 		array(
-			'name' => "Glavni sidebar",
-			'id' => 'glavni-sidebar',
-			'description' => "Glavni sidebar",
-			'before_widget' => '<div class="widget-content">',
-			'after_widget' => "</div>",
-			'before_title' => '<h3 class="widget-title">',
-			'after_title' => '</h3>',
+			'name' => "footer-slogan",
+			'id' => 'footer-slogan',
+			'description' => "Slogan za footer",
+			'before_widget' => '<p>',
+			'after_widget' => "</p>"
+		)
+	);
+
+	
+	register_sidebar(
+		array(
+			'name' => "footer-slogan-2",
+			'id' => 'footer-slogan-2',
+			'description' => "Slogan 2 za footer",
+			'before_widget' => '<h1>',
+			'after_widget' => "</h2>"
 		)
 	);
 
 	register_sidebar(
 		array(
-			'name' => "Kategorije sidebar",
-			'id' => 'kategorije-sidebar',
-			'description' => "Kategorije sidebar",
-			'before_widget' => '<div class="widget-content">',
-			'after_widget' => "</div>",
-			'before_title' => '<h3 class="widget-title">',
-			'after_title' => '</h3>',
+			'name' => "footer-broj",
+			'id' => 'footer-broj',
+			'description' => "Broj za footer",
+			'before_widget' => '<h2>',
+			'after_widget' => "</h2>"
 		)
 	);
 
 	register_sidebar(
 		array(
-			'name' => "Footer sidebar 1",
-			'id' => 'footer-sidebar1',
-			'description' => "Footer sidebar 1",
-			'before_widget' => '<div class="footer-sidebar">',
-			'after_widget' => "</div>",
-			'before_title' => '<h4 class="footer-sidebar-title">',
-			'after_title' => '</h4>',
-		)
-	);
-
-
-	register_sidebar(
-		array(
-			'name' => "Footer sidebar 2",
-			'id' => 'footer-sidebar2',
-			'description' => "Footer sidebar 2",
-			'before_widget' => '<div class="footer-sidebar">',
-			'after_widget' => "</div>",
-			'before_title' => '<h4 class="footer-sidebar-title">',
-			'after_title' => '</h4>',
+			'name' => "footer-grad-postanski",
+			'id' => 'footer-grad-postanski',
+			'description' => "Grad i postanski za footer",
+			'before_widget' => '<p>',
+			'after_widget' => "</p>"
 		)
 	);
 
 	register_sidebar(
 		array(
-			'name' => "Footer sidebar 3",
-			'id' => 'footer-sidebar3',
-			'description' => "Footer sidebar 3",
-			'before_widget' => '<div class="footer-sidebar">',
-			'after_widget' => "</div>",
-			'before_title' => '<h4 class="footer-sidebar-title">',
-			'after_title' => '</h4>',
-		)
-	);
-
-	register_sidebar(
-		array(
-			'name' => "Footer sidebar 4",
-			'id' => 'footer-sidebar4',
-			'description' => "Footer sidebar 4",
-			'before_widget' => '<div class="footer-sidebar">',
-			'after_widget' => "</div>",
-			'before_title' => '<h4 class="footer-sidebar-title">',
-			'after_title' => '</h4>',
+			'name' => "footer-social",
+			'id' => 'footer-social',
+			'description' => "Social media",
+			'before_widget' => '<ul style="display: inline; margin-left: .5rem">',
+			'after_widget' => "</ul>"
 		)
 	);
 }
@@ -127,7 +109,7 @@ function UcitajJsTeme()
 }
 add_action('wp_enqueue_scripts', 'UcitajJsTeme');
 
-function competition_min_expiry_date() {
+function register_admin_scripts() {
 	wp_enqueue_script('jquery-js', get_template_directory_uri() . '/vendor/jquery/jquery.min.js', array('jquery'), true);
 	wp_enqueue_script('jquery-mask-js', get_template_directory_uri() . '/vendor/jquery/jquery.mask.min.js', array('jquery'), true);
 
@@ -135,11 +117,13 @@ function competition_min_expiry_date() {
 	wp_enqueue_script('select2', get_template_directory_uri() . '/vendor/select2/select2.min.js', array('jquery'), true);
 	wp_enqueue_style('maps-css', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
 	wp_enqueue_script('maps-js', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js');
+	wp_enqueue_style('search-maps-css', 'https://unpkg.com/leaflet-geosearch@3.0.5/dist/geosearch.css');
+	wp_enqueue_script('search-maps-js', 'https://unpkg.com/leaflet-geosearch@3.0.5/dist/geosearch.umd.js');
 	wp_enqueue_script('glavni-js', get_template_directory_uri() . '/js/admin-skripta.js', array('jquery'), true);
 }
 
 // Hook into the 'admin_enqueue_scripts' action
-add_action( 'admin_enqueue_scripts', 'competition_min_expiry_date' );
+add_action( 'admin_enqueue_scripts', 'register_admin_scripts' );
 
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
@@ -808,7 +792,7 @@ function html_meta_box_info_salona($post)
 			<div>
 				<label for="salon_adresa">Adresa salona:  </label>
 				<input type="text" id="salon_adresa"
-				name="salon_adresa" value="' . $salon_adresa . '" />
+				name="salon_adresa" value="' . $salon_adresa . '" style="width:100%" />
 			</div>
 			<div class="employee-card">
 				<div class="employee-card-body">
@@ -826,12 +810,12 @@ function html_meta_box_info_salona($post)
 			<div>
 			
 				<label for="salon_lat">Latituda: </label>
-				<input type="text" id="salon_lat"
+				<input disabled type="text" id="salon_lat"
 				name="salon_lat" value="' . $salon_lat . '" />
 			</div>
 			<div>
 				<label for="salon_lng">Longituda </label>
-				<input type="text" id="salon_lng"
+				<input disabled type="text" id="salon_lng"
 				name="salon_lng" value="' . $salon_lng . '" />
 			</div>
 			<div>

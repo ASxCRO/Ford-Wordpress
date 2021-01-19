@@ -139,7 +139,13 @@ p {
   .dk-footer-box-info .footer-social-link ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+  
+  }
+
+  div.custom-html-widget  {
+    display: inline!important;
+  }
   .dk-footer-box-info .footer-social-link li {
     display: inline-block; }
   .dk-footer-box-info .footer-social-link a i {
@@ -257,6 +263,7 @@ p {
     color: #fff; }
   .dk-footer-form button:hover {
     cursor: pointer; }
+
 
 /* ==========================
 
@@ -585,10 +592,19 @@ section {
 
 section .section-title {
     text-align: center;
-    color: white;
+    color: rgb(99, 97, 97);
     margin-bottom: 50px;
     font-size: 3rem;
     text-transform: uppercase;
+}
+
+h2.section-title {
+  color: white;
+}
+
+.black 
+{
+  color: rgb(99, 97, 97)!important;
 }
 
 #team .card {

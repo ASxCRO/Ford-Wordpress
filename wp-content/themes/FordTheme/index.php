@@ -29,7 +29,7 @@ echo do_shortcode('[smartslider3 slider="7"]');
                         <div class="row">
                             <div class="col-sm-4 text-center">
                                 <div class="ford-card">
-                                    <a href="/posebna-ponuda">
+                                    <a href="/ford/zaposlenik/">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 258" class="img-responsive card-img offers-image">
                                             <g id="Layer_2" data-name="Layer 2">
                                                 <g id="Layer_1-2" data-name="Layer 1">
@@ -43,8 +43,8 @@ echo do_shortcode('[smartslider3 slider="7"]');
                                         </svg>
                                     </a>
                                     <div class="card-content">
-                                        <a href="/posebna-ponuda">
-                                            <h3>Privatni kupci</h3>
+                                        <a href="/ford/zaposlenik/">
+                                            <h3>Ford tim</h3>
                                         </a>
                                     </div>
                                     <!--card-content-->
@@ -54,7 +54,7 @@ echo do_shortcode('[smartslider3 slider="7"]');
                             <!--.col-sm-4-->
                             <div class="col-sm-4 text-center">
                                 <div class="ford-card">
-                                    <a href="/ponuda-flotnih-vozila">
+                                    <a href="/ford/vozilo/">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 258" class="img-responsive card-img offers-image">
                                             <g id="Layer_2" data-name="Layer 2">
                                                 <g id="Layer_1-2" data-name="Layer 1">
@@ -85,8 +85,8 @@ echo do_shortcode('[smartslider3 slider="7"]');
                                         </svg>
                                     </a>
                                     <div class="card-content">
-                                        <a href="/ponuda-flotnih-vozila">
-                                            <h3>Poslovni kupci</h3>
+                                        <a href="/ford/vozilo/">
+                                            <h3>Vozila</h3>
                                         </a>
                                     </div>
                                     <!--card-content-->
@@ -96,7 +96,7 @@ echo do_shortcode('[smartslider3 slider="7"]');
                             <!--.col-sm-4-->
                             <div class="col-sm-4 text-center">
                                 <div class="ford-card">
-                                    <a href="/ponuda-servisnih-usluga">
+                                    <a href="/ford/salon/">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 292 258" class="img-responsive card-img offers-image">
                                             <g id="Layer_2" data-name="Layer 2">
                                                 <g id="Layer_1-2" data-name="Layer 1">
@@ -110,8 +110,8 @@ echo do_shortcode('[smartslider3 slider="7"]');
                                         </svg>
                                     </a>
                                     <div class="card-content">
-                                        <a href="/ponuda-servisnih-usluga">
-                                            <h3>Servis</h3>
+                                        <a href="/ford/salon/">
+                                            <h3>Servisi / Saloni</h3>
                                         </a>
                                     </div>
                                     <!--card-content-->
@@ -136,8 +136,8 @@ echo do_shortcode('[smartslider3 slider="7"]');
     <div class="col-md-12 text-center text-dark">
         <header>
 
-            <h2 class="section-title">
-                <span>Ford Vijesti</span>
+            <h2 class="section-title black">
+                <span>FORD VIJESTI</span>
             </h2>
             <p class="text-center text-dark">Pogledajte najnovije Ford Vijesti</p>
         </header>
