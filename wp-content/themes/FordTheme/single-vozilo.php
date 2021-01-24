@@ -8,14 +8,67 @@
 	foreach ($DostupnostVozilaArray as $DostupnostVozila) {
 		$DostupnostTrenutnogVozila = $DostupnostVozila->name;
   }
+
+  $vrstaVozilaArray = wp_get_post_terms( $post->ID,  array( 'vrsta_vozila' ));
+	$vrstaTrenutnogVozila = "";
+	foreach ($vrstaVozilaArray as $vrstaVozila) {
+		$vrstaTrenutnogVozila = $vrstaVozila->name;
+  }
+
+	$vozilo_slider = get_post_meta($post->ID, 'vozilo_slider', true);
+  $slideriArray = explode(',',$vozilo_slider);
   
   if($DostupnostTrenutnogVozila == "Reklama")
   {
     $postTitle = get_the_title();
-    ob_start();
-    the_content();
-    $content_output = ob_get_clean();
-    echo $content_output;
+    if(inBounds(0,$slideriArray))
+    {
+      echo '<div>';
+      echo do_shortcode('[smartslider3 slider="'.$slideriArray[0].'"]');
+      echo '</div>
+      <article>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-10 col-md-11 mx-auto">
+        <h1 class="single-vozilo-h1">POTPUNO NOVO '.$postTitle.' VOZILO</h1>
+        <h2 class="single-vozilo-h2">Sofisticirano i elegantno novo '.$postTitle.' vozilo donosi novu energiju u popularan '.$vrstaTrenutnogVozila.' segment na hrvatskom tržištu</h2>';
+    }
+      if(inBounds(1,$slideriArray))
+      {
+      echo '<div>';
+    echo do_shortcode('[smartslider3 slider="'.$slideriArray[1].'"]');
+      echo '</div>
+      <div class="bg-gray">
+      <h3 class="single-vozilo-h3">Njezin nastup oduševljava. Njezina elegancija ne prolazi nezamijećeno.
+      Nova Ford Kuga pravi je gradski automobil koji ima sve karakteristike jednog SUV-a.</h3>
+      </div>';
+      }
+      if(inBounds(2,$slideriArray))
+      {
+      echo '<div>';
+      echo do_shortcode('[smartslider3 slider="'.$slideriArray[2].'"]');
+        echo '</div>
+        <div class="bg-gray">
+        <h4 class="single-vozilo-h4">Dinamičan i dojmljiv izgled nove Ford Kuge s premium detaljima, koji pružaju poboljšanu prostranost i udobnost, najbolji je primjer Fordovog pristupa usmjerenog na čovjeka.</h4>
+        </div>';
+      }
+      if(inBounds(3,$slideriArray))
+      {
+        echo '<div>';
+        echo do_shortcode('[smartslider3 slider="'.$slideriArray[3].'"]');
+          echo '</div>';
+      }
+      echo           '<div class="bg-gray text-center">
+      <h4 class="single-vozilo-h3">Pronađite dostupna '.$postTitle.' vozila kod najbližih koncesionara!</h4>
+    </div>';
+      echo'<div id="map"></div>
+      </div>
+      </div>
+      </div>
+    </article>
+    
+    <hr />';
+    
     dohvati_salone_u_kojima_je_reklamno_vozilo_dostupno($postTitle);
   }
   else
@@ -28,4 +81,9 @@
 
 
   get_footer();
+
+  function inBounds ($index, $array) 
+  {
+      return ($index >= 0) && ($index < count($array));
+  }
 ?>

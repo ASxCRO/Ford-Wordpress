@@ -10,8 +10,8 @@
 ?>
 
     <?php
-echo do_shortcode('[smartslider3 slider="7"]');
-?>
+    echo do_shortcode('[smartslider3 slider="7"]');
+    ?>
     <?php
         echo dohvati_vozila_po_salonu($salon_slug);
         echo dohvati_zaposlenike('prodajnisavjetnik', 'Prodajni savjetnici u salonu',  get_the_title($post->ID));

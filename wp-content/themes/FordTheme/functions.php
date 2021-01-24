@@ -584,17 +584,6 @@ add_action( 'init', 'register_vrsta_zaposlenika', 0 );
 ?>
 
 <?php
-
-
-//daj aute
-
-//daj salone
-
-//daj zaposlenike
-
-//add-meta-box
-//spremi meta-boxh
-
 function add_meta_box_info_vozila()
 {
 	add_meta_box('info_vozila', 'Info o vozilu', 'html_meta_box_info_vozila', 'vozilo');
@@ -614,7 +603,7 @@ function html_meta_box_info_vozila($post)
 	<div>
 		<div>
 			<label for="vozilo_slider">Slider (odvoji sa zarezom ako ih ima više): </label>
-			<input type="number" id="vozilo_slider"
+			<input type="text" id="vozilo_slider"
 			name="vozilo_slider" value="' . $vozilo_slider . '" />
 		</div>
 		<div>
