@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <span>Copyright © 2021, Sva prava pridržana Ford Hrvatska</span>
+                        <span>Copyright © <?php echo date("Y") ?>, Sva prava pridržana Ford Hrvatska</span>
                     </div>
                     <!-- End Col -->
                     <div class="col-md-6">

@@ -17,13 +17,16 @@
 
 	$vozilo_slider = get_post_meta($post->ID, 'vozilo_slider', true);
   $slideriArray = explode(',',$vozilo_slider);
+
+  $vozilo_para_one = get_post_meta($post->ID, 'vozilo_para_one', true);
+  $vozilo_para_two = get_post_meta($post->ID, 'vozilo_para_two', true);
   
   if($DostupnostTrenutnogVozila == "Reklama")
   {
     $postTitle = get_the_title();
     if(inBounds(0,$slideriArray))
     {
-      echo '<div>';
+      echo '<div style="overflow:hidden;">';
       echo do_shortcode('[smartslider3 slider="'.$slideriArray[0].'"]');
       echo '</div>
       <article>
@@ -35,26 +38,25 @@
     }
       if(inBounds(1,$slideriArray))
       {
-      echo '<div>';
+      echo '<div style="overflow:hidden;">';
     echo do_shortcode('[smartslider3 slider="'.$slideriArray[1].'"]');
       echo '</div>
       <div class="bg-gray">
-      <h3 class="single-vozilo-h3">Njezin nastup oduševljava. Njezina elegancija ne prolazi nezamijećeno.
-      Nova Ford Kuga pravi je gradski automobil koji ima sve karakteristike jednog SUV-a.</h3>
+      <h3 class="single-vozilo-h3">'.$vozilo_para_one.'</h3>
       </div>';
       }
       if(inBounds(2,$slideriArray))
       {
-      echo '<div>';
+      echo '<div style="overflow:hidden;">';
       echo do_shortcode('[smartslider3 slider="'.$slideriArray[2].'"]');
         echo '</div>
         <div class="bg-gray">
-        <h4 class="single-vozilo-h4">Dinamičan i dojmljiv izgled nove Ford Kuge s premium detaljima, koji pružaju poboljšanu prostranost i udobnost, najbolji je primjer Fordovog pristupa usmjerenog na čovjeka.</h4>
+        <h4 class="single-vozilo-h4">'.$vozilo_para_two.'</h4>
         </div>';
       }
       if(inBounds(3,$slideriArray))
       {
-        echo '<div>';
+        echo '<div style="overflow:hidden;">';
         echo do_shortcode('[smartslider3 slider="'.$slideriArray[3].'"]');
           echo '</div>';
       }

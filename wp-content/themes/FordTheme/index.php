@@ -171,10 +171,10 @@ echo do_shortcode('[smartslider3 slider="7"]');
                     $sPostSlikaURI = get_template_directory_uri() . '/img/no-image.png';
                 }
                 echo '<div class="card" style="margin-right: 2rem; border: 1px #bbb solid;">
-                <img class="card-img-top" src="'.$sPostSlikaURI.'" alt="Card image cap" style="height: 200px;">
+                <a href="'.$post->guid.'"><img class="card-img-top" src="'.$sPostSlikaURI.'" alt="Card image cap" style="height: 200px;"></a>
                             <div class="card-body">
                                 <a class="card-title h5" href="'.$post->guid.'" style="text-decoration: none;">Ford Obavijest</a>
-                                <p class="h5" style="color: midnightblue;">'.get_the_title($postID).'</p>
+                                <a href="'.$post->guid.'"><p class="h5" style="color: midnightblue;">'.get_the_title($postID).'</p></a>
                             </div>
                             <div class="card-footer" style="background-color: midnightblue;">
                                 <small   style="color: white;">Objavljeno <p class="h5" style="display: inline;">'.get_the_date('d.m.yy',$postID).'</p></small>
