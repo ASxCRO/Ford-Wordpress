@@ -656,7 +656,7 @@ function dohvati_vozila_po_salonu($salon)
 						<div class="item-price">
 							<div class="price-box">
 								<span class="regular-price">
-									<span class="price">HRK '.$cijena.'</span> 
+									Cijena <span class="price">'.$cijena.' </span> HRK
 								</span> 
 							</div>
 						</div>
@@ -853,8 +853,8 @@ function dohvati_single_dostupno_vozilo($VoziloID)
                   <h6 class="mb-0">Cijena</h6>
                   </div>
                   <div class="col-sm-9 text-secondary h6">
-                  '.$cijenaVozila.' HRK
-                  </div>
+                   <span class="price">'.$cijenaVozila.'</span> HRK
+				  </div>
               </div>
               <hr>
               <div class="row">

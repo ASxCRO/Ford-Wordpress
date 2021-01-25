@@ -66,6 +66,12 @@
     margin: 2rem 0;
   }
 
+  footer .container p {
+    color:white;
+    font-size: 1rem;
+    margin-bottom:.5rem;
+  }
+
   .container .content{
     font-size: 1.7rem;
     line-height: 2.5;
